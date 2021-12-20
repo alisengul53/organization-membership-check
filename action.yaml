@@ -1,4 +1,5 @@
 name: Check membership
+description: This action takes your organization name, a user name and organization token, then it returns if the user has a membership for the given organization with check-result parameter
 inputs:
   organization-name:
     required: true
