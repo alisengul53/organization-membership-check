@@ -12,6 +12,7 @@ outputs:
     description: "Membership check result"
     value: ${{ steps.membership-check.outputs.check-result }}
 runs:
+  using: "composite"
   steps:
     - id: membership-check
       shell: bash
